@@ -54,6 +54,11 @@ body {
     background-color: rgb(177, 177, 255);
 }
 
+.btn.darkblue {
+    color: white;
+    background-color: rgb(4, 52, 76);
+}
+
 .buttons {
     position: fixed;
     bottom: 2vh;
