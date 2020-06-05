@@ -128,7 +128,7 @@ body {
 
 .page .text h1 {
     font-size: 5rem;
-    line-height: 0.5;
+    line-height: 1;
 }
 
 .page .text h1::after {
@@ -186,7 +186,7 @@ body {
 }
 
 .page.last {
-    background-color: #EEEEEE;
+    background-color: lightcoral;
     justify-content: center;
 }
 
