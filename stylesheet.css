@@ -121,7 +121,7 @@ body {
     position: sticky;
     top: 2vh;
 
-    border-left: 10px solid red;
+    border-left: 20px solid red;
 }
 
 .page.pg2 .text { background-color: #EEEEEE; }
