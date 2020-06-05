@@ -135,29 +135,21 @@ body {
     content: "\02764";
     font-size: 1rem;
     margin-left: 10px;
-    animation: colcyc 1s infinite;
-    color: red;
-}
-
-.page .text .h1.after-moving:after {
     animation: colcyc 1s infinite, size 1s infinite;
+    color: red;
 }
 
 @keyframes colcyc {
     0% {
         color: red;
-        font-size: 1rem;
     }
 
     50% {
         color: orange;
-        margin-left: 0.5rem;
-        font-size: 1.25rem;
     }
 
     100% {
         color: red;
-        font-size: 1rem;
     }
 }
 
@@ -192,6 +184,12 @@ body {
 
 .page.last .text {
     position: relative;
-    border-left: 20px solid green;
+    border-left: 20px solid burlywood;
     box-shadow: 10px 10px;
+}
+
+.page.last .text h1 {}
+
+.page.last .text h1::after {
+    display: none;
 }
