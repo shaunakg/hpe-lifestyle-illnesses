@@ -139,6 +139,10 @@ body {
     color: red;
 }
 
+.page .text .h1.after-moving:after {
+    animation: colcyc 1s infinite, size 1s infinite;
+}
+
 @keyframes colcyc {
     0% {
         color: red;
@@ -157,6 +161,21 @@ body {
     }
 }
 
+@keyframes size {
+    0% {
+        font-size: 1rem;
+    }
+
+    50% {
+        margin-left: 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    100% {
+        font-size: 1rem;
+    }
+}
+
 .page .text .definition {
     color: rgba(0, 0, 0, 0.5);
     user-select: none;
@@ -164,4 +183,15 @@ body {
 
 .page .text .definition.italicise {
     font-style: italic;
+}
+
+.page.last {
+    background-color: #EEEEEE;
+    justify-content: center;
+}
+
+.page.last .text {
+    position: relative;
+    border-left: 20px solid green;
+    box-shadow: 10px 10px;
 }
